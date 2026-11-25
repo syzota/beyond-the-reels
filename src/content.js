@@ -1,7 +1,7 @@
 // Edit names and roles here, or use your own team profile images in public/.
 export const team = [
-  { name: 'Putri', role: 'See my github at @syzota', label: '01', photo: '/images/team/aku.png' },
-  { name: 'Carla', role: 'Meet me at IG @carlabarutu', label: '02', photo: '/images/team/beliau.png' }
+  { name: 'Putri', role: 'See my github at @syzota', label: '01', photo: `${import.meta.env.BASE_URL}images/team/aku.png`, },
+  { name: 'Carla', role: 'Meet me at IG @carlabarutu', label: '02', photo: `${import.meta.env.BASE_URL}images/team/beliau.png` }
 ];
 export const triggers = [
   {id:'looks', label:'Penampilan', detail:'Aku harus terlihat seperti mereka.', question:'Standar penampilan siapa yang sedang kamu bandingkan?', icon:'mirror', background:'#f8c3d9'},

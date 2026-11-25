@@ -15,8 +15,8 @@ const VALUES = [
   {id:'connection',name:'Koneksi',action:'Hubungi seseorang yang membuatmu nyaman menjadi diri sendiri.',insight:'Aku berharga di luar jumlah likes dan respons.'}
 ];
 const esc = v => String(v).replace(/[&<>"']/g, x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
-const realPortrait = `<img class="ml-portrait-image ml-portrait-real" src="/images/mirror/real.png" alt="" aria-hidden="true" draggable="false" decoding="async">`;
-const reelPortrait = `<img class="ml-portrait-image ml-portrait-reel" src="/images/mirror/reel.png" alt="" aria-hidden="true" draggable="false" decoding="async">`;
+const realPortrait = `<img class="ml-portrait-image ml-portrait-real" src="${import.meta.env.BASE_URL}images/mirror/real.png" alt="" aria-hidden="true" draggable="false" decoding="async">`;
+const reelPortrait = `<img class="ml-portrait-image ml-portrait-reel" src="${import.meta.env.BASE_URL}images/mirror/reel.png" alt="" aria-hidden="true" draggable="false" decoding="async">`;
 const star = `<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4Z" fill="currentColor"/></svg>`;
 const heart = `<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 1 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8Z"/></svg>`;
 const arrow = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 12h16m-7-7 7 7-7 7"/></svg>`;
